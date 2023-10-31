@@ -1,0 +1,167 @@
+* {
+  box-sizing: content-box;
+  text-decoration: none;
+  
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'inconsolata';
+  line-height: 1.5;
+  color:brown; 
+  background-color: blanchedalmond;
+  max-width: 1600px;
+  margin: 0;
+  padding: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+nav {
+  background-color: brown;
+  color: blanchedalmond;
+  text-align: center;
+  text-decoration: none;
+  
+
+}
+
+h1 {
+  margin:0;
+  padding:0;
+  font-size: x-large;
+  color:antiquewhite;
+  background-color: brown;
+  line-height: 2.5;
+  font-size: 2em; 
+  margin-bottom: 10px; 
+  text-align: center;
+
+
+}
+h2 {
+  margin:0px;
+  padding:0;
+  font-size:large;
+  background-color: salmon;
+}
+h3 { 
+  font-size: medium;
+
+
+}
+h4,
+h5,
+h6 {
+  margin: 150px;
+}
+a {
+  color:blanchedalmond;
+  font-family:"inconsolata";
+  border-spacing: 120px;
+
+}
+#work{
+  color:blanchedalmond;
+  margin:5%;
+  display: grid;
+  min-height:500px;
+  height: 85vh;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-areas: "Yksi-Adervtisements"
+  "Spanish-Caravan" "Norbury-North-West" ;
+  column-gap: 50px;
+  gap: 20px;
+  row-gap: 50px;
+  overflow: hidden;
+  
+  
+
+  
+
+
+
+
+}
+
+#Yksi-Advertisements {
+ container: flex;
+  border:rgb(19, 18, 18);
+  border-width: 2px;
+  border-radius: 1200px;
+  grid-column: 1/ span 2;
+  grid-row: 1;
+  text-align: center;
+  background-color: brown;
+  border-image: round;
+
+
+}
+
+#Spanish-Caravan {
+
+  background-color: brown;
+  border:rgb(19, 18, 18);
+  container: flex;
+  text-align: center;
+  border-image: round;
+
+}
+
+#Norbury-North-West {
+
+  background-color: brown;
+  border:rgb(19, 18, 18);
+  text-align: center;
+  border-image: round;
+}
+
+#GW-Stamper {
+
+  background-color: brown;
+  border:rgb(19, 18, 18);
+}
+
+#Run-By-Arun {
+
+  background-color: brown;
+  border:rgb(19, 18, 18);
+}
+
+#Good-Luck {
+
+  background-color: brown;
+  border:rgb(19, 18, 18);
+}
+
+#Adventure-Tours {
+
+  background-color: brown;
+  border:rgb(19, 18, 18);
+}
+
+img {
+  max-width: 1000px; /* Ensure images don't exceed the article width */
+  height: 120px; /* Maintain the aspect ratio of the images */
+  margin: 10px 0;
+}
+p {
+  margin: 50px;
+  font-size: 1.1em; /* Paragraph font size */
+  line-height: 1.5;
+}
+
+@media (max-width: 760px) {
+  body {font-size: small;
+  
+         width:50%;
+
+
+}
+
+
+
+
+}
